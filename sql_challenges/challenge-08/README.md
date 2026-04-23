@@ -2,7 +2,7 @@
 -- Lesson 03 — Indexes: Setup
 -- Creates the patient_visits table and populates 100,000 rows
 -- Run this once before the other scripts
--- Oracle 23ai / freesql.com
+-- Oracle 23ai / freesql.com.
 -- ============================================================
 
 -- Drop if exists (safe to re-run)
