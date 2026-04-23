@@ -10,7 +10,7 @@ WHERE site_id = 3;
 SELECT * FROM TABLE(DBMS_XPLAN.DISPLAY);
 
 -- Questions:
--- a) What scan type do you see? Why?
+-- a) What scan type do you see? Why?.
 -- The execution plan shows a TABLE ACCESS FULL.
 -- Oracle performs a full table scan because site_id has low cardinality,
 -- meaning each value matches many rows. In that case, using an index may

@@ -2,7 +2,7 @@
 
 This repository contains my learning notes for the **Advanced Databases** course.
 
-## How to use this repo
+## How to use this repo-
 
 - One **session note per class** → `sessions/`
 - One **concept per topic** → `concepts/`
