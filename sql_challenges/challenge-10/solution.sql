@@ -19,7 +19,7 @@ ORDER BY object_type;
 SELECT object_name, object_type, created, last_ddl_time
 FROM user_objects
 ORDER BY object_type, object_name;
-
+.
 -- ============================================
 -- EXERCISE 2: Basic GET_DDL
 -- ============================================
